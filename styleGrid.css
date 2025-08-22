@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: 15% 40% 15%;
+    grid-template-columns: 20% 40% 20%;
     justify-content: center;
     align-content: center;
     column-gap: 20px;
@@ -68,6 +68,15 @@
 .container9 {
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15%;
+    justify-content: center;
+    align-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.container10 {
+    display: grid;
+    grid-template-columns: 20%;
     justify-content: center;
     align-content: center;
     column-gap: 20px;
