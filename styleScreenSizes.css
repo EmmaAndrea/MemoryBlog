@@ -1,0 +1,51 @@
+
+  /* Responsive layout for media sizing */
+    /* small compute */
+    @media (max-width: 1200px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+      .centered {
+        font-size: 10px;
+      }
+      
+    }
+  
+    /* horizontal phone? */
+    @media (max-width: 800px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+      .postspage a, .postspage h2 {
+        font-size: 25px;
+      }
+    }
+    
+    /* phone */
+    @media (max-width: 400px) {
+      .columnIndex {
+        flex: 100%;
+        max-width: 100%;
+        vertical-align: middle;
+      }
+  
+      .rooftop h1, .d1 h1  {
+          font-size: 40px;
+          letter-spacing: 1px;
+      }
+  
+      .article {
+          padding: 0%;
+      }
+  
+      .postspage a, .postspage h2 {
+        font-size: 25px;
+      }
+
+      a {
+        font-size: 15px;
+      }
+  
+    }

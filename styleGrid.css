@@ -7,24 +7,27 @@
 }
 
 .container2 {
+    margin: 20px;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 550px));
     justify-content: center;
     align-content: center;
     column-gap: 20px;
+    row-gap: 20px;
 }
 
 .container3 {
     display: grid;
-    grid-template-columns: 21% 21% 21% 21%;
+    grid-template-columns: repeat(4, 21%);
     justify-content: center;
     align-content: center;
     column-gap: 20px;
+    flex-wrap: wrap;
 }
 
 .container4 {
     display: grid;
-    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-template-columns: repeat(6, 15%);
     justify-content: center;
     align-content: center;
     column-gap: 20px;
@@ -32,7 +35,7 @@
 
 .container5 {
     display: grid;
-    grid-template-columns: 21% 21% 21%;
+    grid-template-columns: repeat(3, 21%);
     justify-content: center;
     align-content: center;
     column-gap: 20px;
@@ -57,17 +60,26 @@
 }
 
 .container8 {
+        margin: 20px;
+
     display: grid;
-    grid-template-columns: 30% 15% 15% 30%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-content: center;
-    align-content: center;
+    align-items: center;
     column-gap: 20px;
     row-gap: 20px;
 }
 
+.flexitem1 {
+    padding: 10px;
+    grid-column-start: span 2;
+}
+
 .container9 {
+    margin: 20px;
     display: grid;
-    grid-template-columns: 15% 15% 15% 15% 15%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
     justify-content: center;
     align-content: center;
     column-gap: 20px;
@@ -76,9 +88,10 @@
 
 .container10 {
     display: grid;
-    grid-template-columns: 20% 20% 20%;
+    grid-template-columns: repeat(3, 20%);
     justify-content: center;
     align-content: center;
     column-gap: 20px;
     row-gap: 20px;
+    ;
 }
